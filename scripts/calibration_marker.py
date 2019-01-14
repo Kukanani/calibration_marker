@@ -50,7 +50,7 @@ class CalibrationMarker:
         self.child_frame = rospy.get_param("~child_frame", "your_new_frame")
 
         self.listener = tf.TransformListener()
-        
+
         self.start_position = Point(0, 0, 0)
         self.start_orientation = Quaternion(0, 0, 0, 1)
         self.pose = Pose()
