@@ -28,9 +28,9 @@ Launch file version:
       pkg="calibration_marker"
       type="calibration_marker.py"
       name="calibration_marker"
-    />
-      <arg name="parent_frame" value="j2s7s300_link_base" />
-      <arg name="child_frame" value="camera_link" />
+    >
+      <param name="parent_frame" value="base_link" />
+      <param name="child_frame" value="camera_link" />
     </node>
 
 
